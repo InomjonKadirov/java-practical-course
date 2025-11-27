@@ -59,6 +59,34 @@ Concurrent programming is essential for building high-performance applications t
 - Virtual Threads (Project Loom - Java 19+)
 - Structured Concurrency
 
+## Specialized Topics
+
+This folder contains dedicated subfolders for advanced concurrent and reactive programming topics:
+
+### [Virtual Threads](./virtual-threads/)
+Project Loom's lightweight threads introduced in Java 19 (preview) and finalized in Java 21. Learn how to create millions of threads efficiently for high-throughput I/O-bound applications.
+
+### [Flow API](./flow-api/)
+Java's built-in reactive streams API (java.util.concurrent.Flow) introduced in Java 9. Implements the Reactive Streams specification with Publisher, Subscriber, Subscription, and Processor interfaces.
+
+### [Project Reactor](./project-reactor/)
+Fully non-blocking reactive programming foundation with Mono and Flux. The reactive library powering Spring WebFlux and the Spring reactive stack.
+
+### [Spring WebFlux](./webflux/)
+Spring's reactive web framework built on Project Reactor. Learn to build non-blocking, reactive REST APIs and web applications with high concurrency.
+
+### [Mutiny](./mutiny/)
+Modern reactive programming library designed for Quarkus. Features an intuitive event-driven API with Uni and Multi for building resilient applications.
+
+### [RxJava](./rxjava/)
+Reactive Extensions for Java with extensive operators and scheduler support. Widely used in Android development and general Java applications.
+
+Each subfolder contains:
+- Comprehensive README with concepts and examples
+- Runnable code samples
+- Best practices and common pitfalls
+- Integration guides and real-world use cases
+
 ## Structure
 
 Each topic will be organized with:
